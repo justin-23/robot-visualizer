@@ -1,0 +1,17 @@
+# Attempt 1: Following https://jimbobbennet.dev/blogs/irobot-create3-connect-a-pi/
+### Successful parts:
+ - Installing and configuring Ubuntu
+ - Installing ROS2 middleware
+ - Followed configuration step, setting RMW_IMPLEMENTATION to rwm_fastrtps_cpp
+### Roadblock: 
+ - Was unable to connect to the Create3 via WiFi, since the IOT network prevented it (out of our control)
+ - Couldn't configure the clock on the iRobot in order to allow Ethernet-over-USB (personal skill issue, possibly doable)
+ - It was at this point where we gave up on using ROS2 and accepted Python.
+# Attempt 2: Following https://forums.raspberrypi.com/viewtopic.php?t=160176
+ - Intended for Arduino, attempted to adapt the code to Pi.
+ - Could not find library for quickly writing to Raspberry Pi pins at the speed needed for GPIO connection
+ - Attempted to write our own and quickly realized it was out of our ability and the scope of the project.
+
+### Roadblock: 
+ - Couldn't 
+## The working attempt was guided by ttps://www.youtube.com/watch?v=iOTWZI4RHA8.

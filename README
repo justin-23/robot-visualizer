@@ -1,0 +1,7 @@
+## Running the script
+
+The script must be run in a directory containing irobot_edu_sdk.
+The final script can be run with `sudo python full_io_final.py`.
+
+The main loop is inside the event handler for 'start', which means that it runs once the robot is connected. If other sensors are added that take longer to load, this should be moved to begin when all sensors are ready.
+
